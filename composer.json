@@ -1,0 +1,31 @@
+{
+  "name": "kevinem/nonprofit-explorer-laravel",
+  "description": "ProPublica provides an application programming interface (API) to the search engine and database that powers Nonprofit Explorer.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kevin Em",
+      "email": "kevinem@thinkdevise.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "kevinem/nonprofit-explorer-php": "^0.1.0",
+    "illuminate/support": "^5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "mockery/mockery": "^0.9.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "KevinEm\\NonprofitExplorerLaravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "KevinEm\\NonprofitExplorerLaravel\\Tests\\": "tests/"
+    }
+  }
+}
